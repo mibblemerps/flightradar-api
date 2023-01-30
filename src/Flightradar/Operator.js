@@ -23,7 +23,7 @@ export default class Operator {
         this.logo = null;
     }
 
-    logoUrl() {
+    get logoUrl() {
         if (!this.logo || !this.logo.startsWith('s3:')) return null;
         return 'https://cdn.flightradar24.com/assets/airlines/logotypes/' + this.logo.substr(3);
     }
