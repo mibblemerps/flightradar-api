@@ -1,0 +1,20 @@
+{
+  "name": "flightradar-api",
+  "version": "1.0.0",
+  "description": "Unofficial API for interacting with Flightradar24's arrivals and departures.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aviation",
+    "flights",
+    "flightradar24"
+  ],
+  "author": "Mibble <mibble@outlook.com.au>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
